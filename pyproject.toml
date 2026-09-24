@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "healthcare-mcp"
-version = "0.2.0"
+version = "0.2.1"
 description = "Local-first personal health management with evidence-linked records and scoped MCP tools"
 readme = "README.md"
 requires-python = ">=3.11"
@@ -12,6 +12,7 @@ license = {text = "Apache-2.0"}
 dependencies = [
   "cryptography>=42",
   "jsonschema>=4.0",
+  "mcp>=1.26,<2",
 ]
 
 [project.optional-dependencies]
