@@ -8,7 +8,7 @@ authenticated local IPC daemon over a unix socket with a paired-agent token that
 only in the macOS Keychain. Every mutation is audit-chained; deletions keep a snapshot
 behind an approval grant.
 
-- **MCP tools (28)**: vitals, medications, activities, emotions, sleep, encounters,
+- **MCP tools (24)**: vitals, medications, activities, emotions, sleep, encounters,
   diagnosis mentions, medication plans, reminders, trend summaries, timelines,
   visit-summary preparation, source evidence — all scoped per person and per agent.
 - **Zero network by default.** An optional, user-configured LLM endpoint
