@@ -3,7 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "healthCare"
+name = "healthcare-mcp"
 version = "0.2.0"
 description = "Local-first personal health management with evidence-linked records and scoped MCP tools"
 readme = "README.md"
