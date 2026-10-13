@@ -1,0 +1,13 @@
+# Python 构建与缓存产物
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+
+# 本地状态
+.env
+.env.*
+!.env.example
+.DS_Store
